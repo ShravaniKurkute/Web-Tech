@@ -1,0 +1,117 @@
+ *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-color: #f4f4f4;
+    }
+    #navbar{
+        background-color: #302828;
+        text-align: center;
+        padding: 30px;
+    }
+    #navbar a{
+        color: antiquewhite;
+        font-size: 20px;
+        margin: 0 25px;
+        text-decoration: none;
+    }
+    #navbar a:hover{
+        color:#F2D388
+    }
+    .menu{
+        display:inline-block;
+        color: antiquewhite;
+        font-size: 20px;
+        margin: 20px 25px;
+    }
+    .main{
+        position: relative;
+        height: 500px;
+        overflow: hidden;
+    }
+    
+    .img{
+        width: 20%;
+        height: 100%;
+        float:left;
+        background-size: cover;
+        background-position: center;
+    }
+    .img1{
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD5gxZXZ9Pl0qQEEU450_humg6PyyHemq5oLB_JB9u_w&s=10");
+    }
+    .img2{
+        background-image:url("https://media.admiddleeast.com/photos/6847e1ded35e3d7418798dc4/master/w_1600%2Cc_limit/250123_JMAA_P2_Kinugawa_Adult_Pool_Alt_2638_MASTER_Medium.jpg");
+    }
+    .img3{
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbZIyr5tt_Co8qESc1wvF86Bucib15c4ALl2p6LqPqw&s=10");
+    }
+    .img4{
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94in2RFKcxxmYlb3pnHpfWLF23wmAyeDGWcDzdaZSBA&s=10");
+    }
+    .img5{
+        background-image:url("https://cdn.sanity.io/images/ocl5w36p/ihcl_prod/ffcac27f651d64a8dee06ee25d535f24d6da386e-1280x1761.jpg?w=480&auto=format&dpr=2");
+    }
+    .content{
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .btn{
+        margin-top: 20px;
+        background-color: #302828;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        color:peachpuff;
+        padding: 15px 35px;
+        font-size: 20px;
+    }
+    .btn:hover{
+        background-color: peachpuff;
+        color:#302828
+    }
+    h2{
+        text-align: center;
+        margin: 50px 20px;
+        color: #7b5b00
+    }
+    .rooms{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .card{
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 10px;
+        overflow:hidden;
+        transition:0.3s;
+    }
+    .card:hover{
+        transform:translateY(-10px);
+        box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    }   
+    .card img{
+        width: 100%;
+        height: 150px;
+    }
+    footer{
+        background-color: #302828;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        padding: 25px;
+        margin-top: 20px;
+    }
