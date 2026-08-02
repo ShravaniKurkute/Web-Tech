@@ -12,22 +12,18 @@ fetch("footer.html").then(response => response.text())
 const url = "https://jsonplaceholder.typicode.com/users";
 
 const apiCard = document.querySelector("#api-card");
-
 console.log("Getting data from api");
 
-const getapidata = async () => {
+const getapidata = async() => {
 
     let response = await fetch(url);
-
-    console.log(response);
-    console.log(response.status);
+    console.log(response); // promise
+    console.log(response.status); //200
 
     let data = await response.json();
-
-    console.log(data);
+    console.log(data); // actual data
 
     for(let i = 0; i < 5; i++){
-
         apiCard.innerHTML += `
             <div class="guest">
                 <p>Name: ${data[i].name}</p>
@@ -36,5 +32,4 @@ const getapidata = async () => {
         `;
     }
 };
-
 getapidata();
