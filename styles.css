@@ -335,3 +335,28 @@
     }
 
 }
+
+/* API Section */
+
+.api-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    margin: 30px auto 60px;
+    justify-content: center;
+}
+
+.guest {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.guest p {
+    font-size: 18px;
+    margin: 10px;
+}
