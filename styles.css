@@ -1,56 +1,39 @@
-/* =========================================================
-   1. COMMON / GLOBAL CSS
-   Used on: ALL PAGES
-   ========================================================= */
-
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 body {
     background-color: #f4f4f4;
 }
-
 h1 {
     font-size: 50px;
 }
-
 p {
     font-size: 25px;
     margin-top: 20px;
 }
-
 h2 {
     text-align: center;
     margin: 50px 20px;
     color: #7b5b00;
 }
 
-
-/* =========================================================
-   2. NAVBAR
-   Used on: ALL PAGES
-   ========================================================= */
-
+/* navbar*/
 #navbar {
     background-color: #302828;
     text-align: center;
     padding: 30px;
 }
-
 #navbar a {
     color: antiquewhite;
     font-size: 20px;
     margin: 0 25px;
     text-decoration: none;
 }
-
 #navbar a:hover {
     color: #F2D388;
 }
-
 .menu {
     display: inline-block;
     color: antiquewhite;
@@ -59,9 +42,7 @@ h2 {
 }
 
 
-/* =========================================================
-   3. HOME PAGE
-   ========================================================= */
+/* HOME PAGE */
 
 /* Main image section */
 
@@ -70,7 +51,6 @@ h2 {
     height: 500px;
     overflow: hidden;
 }
-
 .img {
     width: 20%;
     height: 100%;
@@ -78,29 +58,11 @@ h2 {
     background-size: cover;
     background-position: center;
 }
-
-.img1 {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD5gxZXZ9Pl0qQEEU450_humg6PyyHemq5oLB_JB9u_w&s=10");
-}
-
-.img2 {
-    background-image: url("https://media.admiddleeast.com/photos/6847e1ded35e3d7418798dc4/master/w_1600%2Cc_limit/250123_JMAA_P2_Kinugawa_Adult_Pool_Alt_2638_MASTER_Medium.jpg");
-}
-
-.img3 {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbZIyr5tt_Co8qESc1wvF86Bucib15c4ALl2p6LqPqw&s=10");
-}
-
-.img4 {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94in2RFKcxxmYlb3pnHpfWLF23wmAyeDGWcDzdaZSBA&s=10");
-}
-
-.img5 {
-    background-image: url("https://cdn.sanity.io/images/ocl5w36p/ihcl_prod/ffcac27f651d64a8dee06ee25d535f24d6da386e-1280x1761.jpg?w=480&auto=format&dpr=2");
-}
-
-
-/* Home page content */
+.img1 { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD5gxZXZ9Pl0qQEEU450_humg6PyyHemq5oLB_JB9u_w&s=10");}
+.img2 { background-image: url("https://media.admiddleeast.com/photos/6847e1ded35e3d7418798dc4/master/w_1600%2Cc_limit/250123_JMAA_P2_Kinugawa_Adult_Pool_Alt_2638_MASTER_Medium.jpg");}
+.img3 { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbZIyr5tt_Co8qESc1wvF86Bucib15c4ALl2p6LqPqw&s=10");}
+.img4 { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94in2RFKcxxmYlb3pnHpfWLF23wmAyeDGWcDzdaZSBA&s=10");}
+.img5 { background-image: url("https://cdn.sanity.io/images/ocl5w36p/ihcl_prod/ffcac27f651d64a8dee06ee25d535f24d6da386e-1280x1761.jpg?w=480&auto=format&dpr=2");}
 
 .content {
     position: absolute;
@@ -111,9 +73,7 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-
 /* Book button */
-
 .btn {
     margin-top: 20px;
     background-color: #302828;
@@ -123,20 +83,16 @@ h2 {
     padding: 15px 35px;
     font-size: 20px;
 }
-
 .btn:hover {
     background-color: peachpuff;
     color: #302828;
 }
 
-
 /* Luxury room cards on Home */
-
 .rooms {
     text-align: center;
     margin-bottom: 50px;
 }
-
 .card {
     width: 300px;
     display: inline-block;
@@ -145,46 +101,33 @@ h2 {
     overflow: hidden;
     transition: 0.3s;
 }
-
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
-
 .card img {
     width: 100%;
     height: 150px;
 }
 
-
-/* =========================================================
-   4. ROOMS PAGE
-   ========================================================= */
-
+/* ROOMS PAGE */
 .rooms-banner {
     background: #302828;
     color: white;
     text-align: center;
     padding: 70px 20px;
 }
-
 .rooms-banner h1 {
     font-size: 45px;
     margin-bottom: 15px;
 }
-
 .rooms-banner p {
     font-size: 22px;
 }
-
-
-/* Rooms section */
-
 .rooms-section {
     width: 90%;
     margin: 50px auto;
 }
-
 .room-card {
     display: flex;
     align-items: center;
@@ -195,68 +138,52 @@ h2 {
     margin-bottom: 50px;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
-
 .room-card img {
     width: 45%;
     height: 320px;
     object-fit: cover;
 }
-
 .room-details {
     padding: 30px;
 }
-
 .room-details h2 {
     color: #7b5b00;
     margin-bottom: 15px;
 }
-
 .room-details p {
     font-size: 18px;
     color: #555;
     line-height: 1.7;
 }
-
 .room-details h3 {
     margin: 20px 0;
     color: #302828;
 }
-
 .room-details ul {
     margin-left: 20px;
     margin-bottom: 20px;
 }
-
 .room-details li {
     margin: 8px 0;
 }
-
 .reverse {
     flex-direction: row-reverse;
 }
-
-
-/* =========================================================
-   5. AMENITIES
-   ========================================================= */
 
 .amenities {
     background: #f8f8f8;
     padding: 60px 30px;
 }
-
 .amenities h2 {
     text-align: center;
     margin-bottom: 40px;
     color: #7b5b00;
 }
-
 .amenities-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
-
 .amenity {
     background: white;
     padding: 20px;
@@ -267,15 +194,7 @@ h2 {
     transition: 0.3s;
 }
 
-.amenity:hover {
-    transform: translateY(-6px);
-}
-
-
-/* =========================================================
-   6. SERVICES PAGE / API
-   ========================================================= */
-
+/* services*/
 .api-card {
     display: flex;
     flex-wrap: wrap;
@@ -284,7 +203,6 @@ h2 {
     margin: 30px auto 60px;
     justify-content: center;
 }
-
 .guest {
     width: 250px;
     padding: 20px;
@@ -293,18 +211,13 @@ h2 {
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
-
 .guest p {
     font-size: 18px;
     margin: 10px;
 }
 
 
-/* =========================================================
-   7. CONTACT PAGE
-   ========================================================= */
-
-/* Contact banner */
+/*Contact*/
 
 .contact-banner {
     background: #302828;
@@ -312,18 +225,13 @@ h2 {
     text-align: center;
     padding: 70px 20px;
 }
-
 .contact-banner h1 {
     font-size: 45px;
     margin-bottom: 15px;
 }
-
 .contact-banner p {
     font-size: 22px;
 }
-
-
-/* Contact section */
 
 .contact-container {
     width: 90%;
@@ -358,9 +266,7 @@ h2 {
     margin-bottom: 8px;
 }
 
-
 /* Contact form */
-
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -380,12 +286,7 @@ h2 {
     width: 100%;
 }
 
-
-/* =========================================================
-   8. FOOTER
-   Used on: ALL PAGES
-   ========================================================= */
-
+/* Footer */
 footer {
     background-color: #302828;
     color: white;
@@ -395,43 +296,27 @@ footer {
     margin-top: 20px;
 }
 
-
-/* =========================================================
-   9. RESPONSIVE CSS
-   Used on: ROOMS + CONTACT
-   ========================================================= */
+/* media query */
 
 @media (max-width: 768px) {
-
-    /* Rooms */
-
     .room-card {
         flex-direction: column;
     }
-
     .reverse {
         flex-direction: column;
     }
-
     .room-card img {
         width: 100%;
     }
-
     .rooms-banner h1 {
         font-size: 35px;
     }
-
-
-    /* Contact */
-
     .contact-banner h1 {
         font-size: 35px;
     }
-
     .contact-banner p {
         font-size: 18px;
     }
-
     .contact-container {
         flex-direction: column;
     }
